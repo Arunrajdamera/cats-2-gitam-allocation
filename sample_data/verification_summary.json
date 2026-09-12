@@ -1,0 +1,332 @@
+{
+  "faculty_count": 151,
+  "subject_count": 52,
+  "section_count": 288,
+  "statistics": {
+    "total_faculty": 151,
+    "total_subjects": 52,
+    "total_sections": 288,
+    "allocated_sections": 288,
+    "remaining_sections": 0,
+    "subject_fulfillment_percent": 100.0,
+    "coverage_percent": 100.0,
+    "coverage_allocations": 24,
+    "related_match_allocations": 8,
+    "priority_1": 216,
+    "priority_2": 39,
+    "priority_3": 20,
+    "priority_4": 5,
+    "priority_1_allocation_percent": 75.0,
+    "priority_1_faculty_satisfaction_percent": 70.86,
+    "same_subject_percent": 94.53,
+    "mixed_subject_percent": 5.47,
+    "manual_allocation_count": 10,
+    "unallocated_count": 10,
+    "average_workload": 8.69,
+    "max_workload": 14,
+    "min_workload": 0,
+    "workload_variance": 11.12,
+    "validation_passed": 5,
+    "validation_warnings": 37,
+    "validation_failures": 0,
+    "runtime_seconds": 0.064
+  },
+  "validation": [
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: 24CSEN2061",
+      "row": 5,
+      "code": "24CSEN2061"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: 24CSEN2161",
+      "row": 5,
+      "code": "24CSEN2161"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: CSEN3231",
+      "row": 5,
+      "code": "CSEN3231"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: AUTO_FOUNDATIONS_OF_DATA_SCIENCE",
+      "row": 7,
+      "code": "AUTO_FOUNDATIONS_OF_DATA_SCIENCE"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: 24CSEN1021",
+      "row": 10,
+      "code": "24CSEN1021"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: AUTO_FOUNDATIONS_OF_DATA_SCIENCE",
+      "row": 17,
+      "code": "AUTO_FOUNDATIONS_OF_DATA_SCIENCE"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: AUTO_FOUNDATIONS_OF_DATA_SCIENCE",
+      "row": 20,
+      "code": "AUTO_FOUNDATIONS_OF_DATA_SCIENCE"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: CSEN3221",
+      "row": 27,
+      "code": "CSEN3221"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: AUTO_FOUNDATIONS_OF_DATA_SCIENCE",
+      "row": 32,
+      "code": "AUTO_FOUNDATIONS_OF_DATA_SCIENCE"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: AUTO_FOUNDATIONS_OF_DATA_SCIENCE",
+      "row": 35,
+      "code": "AUTO_FOUNDATIONS_OF_DATA_SCIENCE"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: AUTO_FOUNDATIONS_OF_DATA_SCIENCE",
+      "row": 37,
+      "code": "AUTO_FOUNDATIONS_OF_DATA_SCIENCE"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: 24CSEN2081",
+      "row": 39,
+      "code": "24CSEN2081"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: 24CSEN1011",
+      "row": 39,
+      "code": "24CSEN1011"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: 24CSEN2111",
+      "row": 39,
+      "code": "24CSEN2111"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: 24CSEN2161",
+      "row": 40,
+      "code": "24CSEN2161"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: CSEN3141",
+      "row": 40,
+      "code": "CSEN3141"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: 24CSEN3251",
+      "row": 61,
+      "code": "24CSEN3251"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: AUTO_FOUNDATIONS_OF_DATA_SCIENCE",
+      "row": 69,
+      "code": "AUTO_FOUNDATIONS_OF_DATA_SCIENCE"
+    },
+    {
+      "check": "duplicate_preference",
+      "status": "WARNING",
+      "message": "Duplicate preference removed: 24CSEN2151",
+      "row": 89,
+      "code": "24CSEN2151"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_NEXT_GENERATION_NETWORKS.",
+      "row": 8,
+      "code": "AUTO_NEXT_GENERATION_NETWORKS"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_IMAGE_AND_VIDEO_ANALYSIS.",
+      "row": 9,
+      "code": "AUTO_IMAGE_AND_VIDEO_ANALYSIS"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_INTRO_TO_PARALLEL_PROGRAMMING.",
+      "row": 10,
+      "code": "AUTO_INTRO_TO_PARALLEL_PROGRAMMING"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_FUNDAMENTALS_OF_CYBER_SECURITY.",
+      "row": 11,
+      "code": "AUTO_FUNDAMENTALS_OF_CYBER_SECURITY"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_INTRODUCTION_TO_BIG_DATA.",
+      "row": 12,
+      "code": "AUTO_INTRODUCTION_TO_BIG_DATA"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_APPLICATIONS_OF_IOT_FOR_SUSTAINABILITY.",
+      "row": 13,
+      "code": "AUTO_APPLICATIONS_OF_IOT_FOR_SUSTAINABILITY"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_MACHINE_LEARNING_TECHNIQUES.",
+      "row": 14,
+      "code": "AUTO_MACHINE_LEARNING_TECHNIQUES"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_AI_SEARCH_METHODS_FOR_PROBLEM_SOLVING.",
+      "row": 15,
+      "code": "AUTO_AI_SEARCH_METHODS_FOR_PROBLEM_SOLVING"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_APPLICATIONS_OF_IOT_FOR_SUSTAINABILITY.",
+      "row": 16,
+      "code": "AUTO_APPLICATIONS_OF_IOT_FOR_SUSTAINABILITY"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_AGENTIC_AI_SYSTEMS.",
+      "row": 35,
+      "code": "AUTO_AGENTIC_AI_SYSTEMS"
+    },
+    {
+      "check": "missing_subject_definition",
+      "status": "WARNING",
+      "message": "Combinatorial Optimization missing from subjects.xlsx row 49; generated master record.",
+      "row": 49,
+      "code": "AUTO_COMBINATORIAL_OPTIMIZATION"
+    },
+    {
+      "check": "subject_code",
+      "status": "WARNING",
+      "message": "Missing course code; generated AUTO_FOUNDATIONS_OF_DATA_SCIENCE.",
+      "row": 50,
+      "code": "AUTO_FOUNDATIONS_OF_DATA_SCIENCE"
+    },
+    {
+      "check": "duplicate_subject_code",
+      "status": "WARNING",
+      "message": "Duplicate subject code encountered 2 times: AUTO_APPLICATIONS_OF_IOT_FOR_SUSTAINABILITY.",
+      "row": null,
+      "code": "AUTO_APPLICATIONS_OF_IOT_FOR_SUSTAINABILITY"
+    },
+    {
+      "check": "duplicate_subject_code",
+      "status": "WARNING",
+      "message": "Duplicate subject code encountered 2 times: 24CSEN2201.",
+      "row": null,
+      "code": "24CSEN2201"
+    },
+    {
+      "check": "missing_preferences",
+      "status": "WARNING",
+      "message": "1243 has no valid subject preferences; manual allocation required.",
+      "row": 6,
+      "code": "1243"
+    },
+    {
+      "check": "missing_preferences",
+      "status": "WARNING",
+      "message": "501624 has no valid subject preferences; manual allocation required.",
+      "row": 104,
+      "code": "501624"
+    },
+    {
+      "check": "missing_preferences",
+      "status": "WARNING",
+      "message": "600516 has no valid subject preferences; manual allocation required.",
+      "row": 111,
+      "code": "600516"
+    },
+    {
+      "check": "missing_preferences",
+      "status": "WARNING",
+      "message": "1333 has no valid subject preferences; manual allocation required.",
+      "row": 153,
+      "code": "1333"
+    },
+    {
+      "check": "subject_coverage",
+      "status": "PASS",
+      "message": "All subject requirements fulfilled.",
+      "row": null,
+      "code": null
+    },
+    {
+      "check": "bottom_up_order",
+      "status": "PASS",
+      "message": "Faculty processing preserved original Excel order and allocated from bottom row upward.",
+      "row": null,
+      "code": null
+    },
+    {
+      "check": "coverage_phase",
+      "status": "PASS",
+      "message": "Coverage/repair phase completed in 1 pass(es).",
+      "row": null,
+      "code": null
+    },
+    {
+      "check": "swap_optimization",
+      "status": "PASS",
+      "message": "Preference-improving local search accepted 5 swap(s).",
+      "row": null,
+      "code": null
+    },
+    {
+      "check": "audit_log_integrity",
+      "status": "PASS",
+      "message": "293 audit events recorded.",
+      "row": null,
+      "code": null
+    }
+  ],
+  "excel_report": "sample_data\\verified_allocation_report.xlsx",
+  "pdf_report": "sample_data\\verified_allocation_summary.pdf"
+}
